@@ -1,0 +1,7 @@
+type Module {
+    # database methods
+    DbSet(key: Bytes!, value: Bytes!): Boolean
+    DbGet(key: Bytes!): Bytes!
+    DbHas(key: Bytes!): Boolean
+    DbRemove(key: Bytes!): Boolean
+}
